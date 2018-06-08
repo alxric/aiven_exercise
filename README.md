@@ -8,6 +8,7 @@ Two simple tools to complete the following assignment:
     and a Kafka consumer storing the data to Aiven PostgreSQL database.
 
 kafka_producer.py will generate an event every second and send it to Kafka.
+
 kafka_consumer.py will consume said events and store in a PostgreSQL database called **exercise**, table **test_data**
 
 Unit tests included in the tests folder
