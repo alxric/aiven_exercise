@@ -1,0 +1,14 @@
+---
+  kafka:
+    host: ""
+    topic: "aiven-topic"
+    group: "aiven-group"
+    ssl_cafile: "ca.pem"
+    ssl_certfile: "service.cert"
+    ssl_keyfile: "service.key"
+  postgres:
+    host: ""
+    port: 27601
+    username: avnadmin
+    password: ""
+    database: "exercise"
